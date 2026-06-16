@@ -1,0 +1,15 @@
+{
+  "project_name": "ApplyPilot",
+  "default_model": "ollama",
+  "local_llm": "Ollama",
+  "search_provider": "Tavily",
+  "email_provider": "Gmail SMTP/IMAP",
+  "human_approval_required_for": [
+    "send_email",
+    "submit_application",
+    "delete_file",
+    "external_account_change"
+  ],
+  "logging_enabled": true,
+  "reply_tracking_enabled": true
+}

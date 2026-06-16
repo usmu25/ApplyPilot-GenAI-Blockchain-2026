@@ -1,0 +1,40 @@
+{
+  "project": "ApplyPilot",
+  "tools": [
+    {
+      "name": "ollama_client",
+      "file": "tools/ollama_client.py",
+      "type": "model",
+      "risk": "low",
+      "approval_required": false
+    },
+    {
+      "name": "tavily_search",
+      "file": "tools/opportunity_search.py",
+      "type": "read_external",
+      "risk": "medium",
+      "approval_required": false
+    },
+    {
+      "name": "email_sender",
+      "file": "tools/email_sender.py",
+      "type": "write_external",
+      "risk": "high",
+      "approval_required": true
+    },
+    {
+      "name": "email_tracker",
+      "file": "tools/email_tracker.py",
+      "type": "read_external",
+      "risk": "medium",
+      "approval_required": false
+    },
+    {
+      "name": "evaluation_agent",
+      "file": "agents/evaluation_agent.py",
+      "type": "quality_check",
+      "risk": "medium",
+      "approval_required": false
+    }
+  ]
+}

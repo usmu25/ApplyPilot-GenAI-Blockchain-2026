@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+data/uploads/
+data/final_cvs/
+data/cover_letters/
+data/logs/
+data/application_tracker.csv
+data/applications.csv
+data/notify_chat_id.txt
+
+backups/
+data/**/*.pdf
+data/**/*.docx
